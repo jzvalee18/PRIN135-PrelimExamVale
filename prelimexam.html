@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset ="UTF-8">
-    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRIN135-PrelimExam</title>
 </head>
-
-    <body>
-        <header>
+<body>
+    <header>
         <nav aria-label="Main Navigation">
-            <a href="#about">About Me</a>|
-            <a href="#skills">Skills</a>|
-            <a href="#education">Education and Trainings</a>|
-            <a href="#achievements">Awards and Achievements</a>|
+            <a href="#about">About Me</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#education">Education and Trainings</a> |
+            <a href="#achievements">Awards and Achievements</a> |
             <a href="#contact">Contact Me</a>
         </nav>
     </header>
@@ -20,14 +19,13 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Profile Picture of the Goat" width="200"height="200">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Twitter_default_profile_400x400.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Profile Picture of the Goat" width="200" height="200">
             <h3>Personal Information</h3>
-            <p><strong>Name:</strong>Jazrel Vale</p>
-            <p><strong>Email:</strong>vale2434122@mls.ceu.edu.ph</p>
-            <p><strong>Contact Number:</strong>09101452604</p>
-            <p><strong>Github:</strong><a href="https://github.com/jzvalee18"target="_blank">https://github.com/jzvalee18</a></p>
-            <p>Im a 3rd year BSIT student at Centro Escolar University Malolos</p>
-
+            <p><strong>Name:</strong> Jazrel Vale</p>
+            <p><strong>Email:</strong> <a href="mailto:vale2434122@mls.ceu.edu.ph">vale2434122@mls.ceu.edu.ph</a></p>
+            <p><strong>Contact Number:</strong> <a href="tel:+639101452604">09101452604</a></p>
+            <p><strong>Github:</strong> <a href="https://github.com/jzvalee18" target="_blank">https://github.com/jzvalee18</a></p>
+            <p>I'm a 3rd year BSIT student at Centro Escolar University Malolos</p>
         </section>
         
         <section id="skills">
@@ -37,66 +35,61 @@
                 <li>Smart</li>
                 <li>Good looking</li>
             </ul>
+        </section>
 
-    </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ol>
+                <li><strong>Elementary: </strong> CMIS Sto. Rosario</li>
+                <li><strong>High School: </strong> MHPNHS</li>
+                <li><strong>College: </strong> Centro Escolar University</li>
+            </ol>
+        </section>
+        
+        <section id="achievements">
+            <h2>Awards and Achievements</h2>
+            <ol>
+                <li>Unkillable Mid laner</li>
+                <li>Former Top Global Kagura</li>
+                <li>Former Top Philippines Valentina</li>
+            </ol>
+        </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ol>
-            <li><strong>Elementary: </strong> CMIS Sto. Rosario</li>
-            <li><strong>High School: </strong> MHPNHS</li>
-            <li><strong>College: </strong> Centro Escolar University</li>
-        </ol>
-    </section>
-    
-    <section id="achievements">
-        <h2>Awards and Achievements</h2>
-        <ul>
-            <li>Unkillable Mid laner</li>
-            <li>Former Top Global Kagura</li>
-            <li>Former Top Philippines Valentina</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
                 <div>
-                <label for="name">Name:</label><br/>
-                <input id="name" type="text" placeholder="Jazrel Vale" required>
-                </div> <br/>
-
-                <div>
-                <label for="emaiL">Email:</label><br/>
-                <input id="email" type="email" placeholder="vale2434122@mls.ceu.edu.ph" required size = "25">
+                    <label for="name">Name:</label><br/>
+                    <input id="name" name="name" type="text" placeholder="Jazrel Vale" maxlength="25" required>
                 </div><br/>
 
                 <div>
-                <label for="message">Message:</label><br/>
-                <input id="Message" row="3" placeholder="Enter your message here" required>
+                    <label for="email">Email:</label><br/>
+                    <input id="email" name="email" type="email" placeholder="vale2434122@mls.ceu.edu.ph" size="25" maxlength="25" required>
+                </div><br/>
+
+                <div>
+                    <label for="message">Message:</label><br/>
+                    <textarea id="message" name="message" rows="3" placeholder="Enter your message here" maxlength="255" required></textarea>
                 </div><br/>
 
                 <button type="submit">Contact Me</button>
             </form>
-            </section>  
-        </main>  
-         
-        <footer>
-        <nav>
+        </section>  
+    </main>   
+     
+    <footer>
+        <nav aria-label="Footer Navigation">
             <a href="#about">About Me</a>
             <span></span>
             <a href="#skills">Skills</a>
             <span></span>
             <a href="#education">Education</a>
             <span></span>
-            <a href="awards">Award and Achivements</a>
+            <a href="#achievements">Awards and Achievements</a>
             <span></span>
             <a href="#contact">Contact</a>
-            <span></span>
         </nav>
-        </footer>
-
-    </section>
-    </main>
-    </body>
+    </footer>
+</body>
+</html>
